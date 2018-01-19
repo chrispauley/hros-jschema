@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HROS-JSchema About</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel='stylesheet' href='styles.css' />
+</head>
+
+<body>
+  <header>
+    <div id='top-nav'>
+      <div id='top-nav'>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <div class="navbar-brand">HROS - JSchema Validation</div>
+              <button type="button" class="navbar-toggle" onClick={this.toggleCollapse.bind(this)}>
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+            </div>
+            <div class="navbar-collapse " id="top-navbar">
+              <ul class="nav navbar-nav">
+                <li><a href='index.html'>Index</a></li>
+
+                <li class='dropdown'>
+                  <a href='' class='dropdown-toggle' data-toggle='dropdown'>Work Group Links <b class='caret'></b></a>
+                  <ul class='dropdown-menu'>
+                    <li><a href='HROPEN/common/json/samples/testType.html'>Common testType.html</a></li>
+                    <li><a href='HROPEN/assessments/json/samples/testType.html'>Assessments testType.html</a></li>
+                    <li><a href='HROPEN/recruiting/tests/json/jschema/testType.html'>Recruiting testType.html</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul class='nav navbar-nav navbar-right'>
+                <li><a href='about.html'>About</a></li>
+
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+
+
+      </div>
+
+    </div>
+  </header>
+  <hr/>
+  <div class='container'>
+
+    <div class='row' style='margin-top: 20px'>
+
+      <div class='jumbotron'>
+        <h1>About </h1>
+        <p>This is an independently developed web application to facilatate the development of the HROS Standards.
+            The index.html page hosts the HROS approved schema validation tool, JSchema. This will help
+            the average person to work with the schemas without the required tooling.
+        </p>
+
+        <p><a class="btn btn-primary btn-sm" href="https://github.com/chrispauley/hros-jschema" role="button">GitHub Repo</a></p>
+      </div>
+
+      <div class='row'>
+        <div class='col-sm-4'>
+          <h3>HR Open Standards</h3>
+          <p>Would you like to participate in developing the HR Open Standards?</p>
+          <img src='img/hropen_logosq.png' alt='' />
+          <ul class='fa-ul'>
+            <li><a href='http://hropenstandards.org/'>HR Open</a></li>
+            <li><a target='_new' href='https://github.com/hropen/'>
+                <i id="social-fb" class="fa fa-github-square fa-1x social fa-fw"></i>
+                HROpen Repos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class='col-sm-4'>
+          <h2>This WebApp</h2>
+          <p>This application was built using:</p>
+          <ul class='tech_icon'>
+            <li class='html5'><span>HTML5</span>
+            </li>
+            <li class='bootstrap'><span>Bootstrap 3.3.7</span>
+            </li>
+
+            <li class='github'><span>GitHub</span>
+            </li>
+            <li class='bower'>
+              <span><a href='https://bower.io/'>Bower</a></span> is used to pull JSchema repo and the HROPEN schema repositiories from the GitHub.
+            </li>
+            <li class='docker'><span><a href='https://www.docker.com/'>Docker</a></span>
+            </li>
+            <li class='alpinelinux'><span><a href='https://alpinelinux.org/'>Alpine Linux image</a></span>
+            </li>
+            <li class='nginx'><span><a href='https://www.nginx.com/'>Nginx</a></span>
+            </li>
+            <li class='docker-hub'><span><a href='https://hub.docker.com/r/chrispauley/'>Docker Hub</a></span>
+            </li>
+            <li class='aws'><span><a href='https://aws.amazon.com/'>EC2 on Amazon Web Services</a></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class='col-sm-4'>
+          <h2>Chris Pauley</h2>
+          <p>Hire Me! I am currently looking for gainful employment. I am interested in a full time permanent position or contract to hire. I would like to develop a web service to match candidates with position openings based upon competencies.
+          </p>
+          <p>I am an experienced schema editor for XSD, JSON Schemas, and RDBMS's. </p>
+          <ul class='fa-ul'>
+            <li><a target='_new' href='https://www.linkedin.com/in/christopherpauley/'>
+                <i id="social-fb" class="fa fa-linkedin-square fa-1x social fa-fw"></i>
+                LinkedIn</a>
+            </li>
+            <li><a target='_new' href='https://github.com/chrispauley/chrispauley'>
+                <i id="social-fb" class="fa fa-github-square fa-1x social fa-fw"></i>
+                My Repos</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+    <hr/>
+    <div class='row well'>
+      <div class='col-md-12'>
+        <h3 class='text-center'>Project Design</h3>
+        <div class='row'>
+          <div class='col-md-4'>
+            <div class="img-responsive" alt="Responsive image">
+              <img src='img/project_structure.png' alt='' height='450px' />
+            </div>
+          </div>
+          <div class='col-md-8'>
+            <div class='panel'>
+              <p>The project uses NPM and Bower to pull the repositiories into the
+                  public folder. The contents of the public folder is served to the web.
+                  This includes an the JSchema web application which is embedded into
+                  the index.html page with an iframe tag. Simple, but effective.
+              </p>
+
+              <p>The JSchema web application is served in an iframe tag. Links on
+                  that page load the workgroup schemas into the web application. </p>
+
+              <p>
+                  The whole project is wrapped in a Docker image with a small
+                  linux instance and an Nginx web server. The docker image is tagged
+                  and pushed to a Docker Hub account.
+              </p>
+              <p>To run a the docker image, one can pull a copy of the image and
+              run it as a container in an environment such as AWS EC2. One could
+             run the container on their local machine or anywhere that has Docker installed.
+          </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id='footer'></div>
+
+</body>
+
+</html>

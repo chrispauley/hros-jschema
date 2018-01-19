@@ -1,0 +1,11 @@
+{
+  "name": "hros-jschema",
+  "version": "1.0.0",
+  "description": "Runs JSchema in an iframe with HROS workgroup schemas.",
+  "keywords": [],
+  "author": "Chris Pauley <pauleyc@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "1.8.2"
+  }
+}

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HROS - JSchema</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='styles.css'/>
+  <script type="text/javascript">
+  function resizeIframe(obj){
+    var h = window.innerHeight;
+    var w = window.innerWidth;
+    // console.log('w:', w);
+     obj.style.height = 0;
+     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+     obj.style.width = 1200+'px';
+    //  obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
+  }
+  function loadDefinedType(){
+    var newUrl='HROPEN/jschema/JSchema/index.htm?#schema=/HROPEN/assessments/json/AssessmentType.json';
+    document.getElementById('iframeID').src=newUrl;
+  }
+  function loadBenefitsType(){
+      var newUrl='HROPEN/jschema/JSchema/index.htm?#schema=/HROPEN/benefits/json/BenefitsType.json';
+      document.getElementById('iframeID').src=newUrl;
+  }
+  function loadCompensationType(){
+      var newUrl='HROPEN/jschema/JSchema/index.htm?#schema=/HROPEN/compensation/json/SalarySurveySubmission.json';
+      document.getElementById('iframeID').src=newUrl;
+  }
+  function loadInterviewingType(){
+      var newUrl='HROPEN/jschema/JSchema/index.htm?#schema=/HROPEN/interviewing/json/InterviewType.json';
+      document.getElementById('iframeID').src=newUrl;
+  }
+  function loadRecruitingType(){
+      var newUrl='HROPEN/jschema/JSchema/index.htm?#schema=/HROPEN/recruiting/json/RecruitingType.json';
+      document.getElementById('iframeID').src=newUrl;
+  }
+  function loadScreeningType(){
+      var newUrl='HROPEN/jschema/JSchema/index.htm?#schema=/HROPEN/screening/json/ScreeningType.json';
+      document.getElementById('iframeID').src=newUrl;
+  }
+  function loadTimecardType(){
+      var newUrl='HROPEN/jschema/JSchema/index.htm?#schema=/HROPEN/timecard/json/TimecardType.json';
+      document.getElementById('iframeID').src=newUrl;
+  }
+  function loadWellnessType(){
+      var newUrl='HROPEN/jschema/JSchema/index.htm?#schema=/HROPEN/wellness/json/WellnessType.json';
+      document.getElementById('iframeID').src=newUrl;
+  }
+</script>
+</head>
+
+<body>
+  <header>
+    <div id='top-nav'>
+        <div id='top-nav'>
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                  <div class="navbar-brand">HROS - JSchema Validation</div>
+                  <button type="button" class="navbar-toggle" onClick={this.toggleCollapse.bind(this)}>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="navbar-collapse " id="top-navbar">
+                  <ul class="nav navbar-nav">
+                    <li><a href='index.html'>JSchema</a></li>
+
+                    <li class='dropdown'>
+                      <a href='' class='dropdown-toggle'
+                        data-toggle='dropdown'>Work Group Links <b class='caret'></b></a>
+                        <ul class='dropdown-menu'>
+                          <li><a href='HROPEN/common/json/samples/testType.html'>Common testType.html</a></li>
+                          <li><a href='HROPEN/assessments/json/samples/testType.html'>Assessments testType.html</a></li>
+                          <li><a href='HROPEN/recruiting/tests/json/jschema/testType.html'>Recruiting testType.html</a></li>
+                        </ul>
+                    </li>
+                  </ul>
+
+                  <ul class='nav navbar-nav navbar-right'>
+                    <li><a href='about.html'>About</a></li>
+
+                  </ul>
+
+                </div>
+              </div>
+            </nav>
+
+
+        </div>
+
+    </div>
+  </header>
+  <hr/>
+
+  <div class='container main-content' style="margin-top: 40px;">
+
+    <div class='row well'>
+    <div class='col-md-12'>
+            Click on these links to load the schema:
+    </div>
+    <hr/>
+      <div class='col-md-2'>
+        <div>
+            <p class='text-muted'>
+                <a target='_new' onClick='loadDefinedType()'>AssessmentsType.json</a>
+            </p>
+        </div>
+      </div>
+      <div class='col-md-2'>
+        <div>
+            <p class='text-muted'>
+                <a target='_new' onClick='loadBenefitsType()'>BenefitsType.json</a>
+            </p>
+        </div>
+      </div>
+      <div class='col-md-2'>
+        <div>
+            <p class='text-muted'>
+                <a target='_new' onClick='loadCompensationType()'>CompensationType.json</a>
+            </p>
+        </div>
+      </div>
+      <div class='col-md-2'>
+        <div>
+            <p class='text-muted'>
+                <a target='_new' onClick='loadInterviewingType()'>InterviewingType.json</a>
+            </p>
+        </div>
+      </div>
+      <div class='col-md-2'>
+        <div>
+            <p class='text-muted'>
+                <a target='_new' onClick='loadRecruitingType()'>RecruitingType.json</a>
+            </p>
+        </div>
+      </div>
+      <div class='col-md-2'>
+        <div>
+            <p class='text-muted'>
+                <a target='_new' onClick='loadScreeningType()'>ScreeningType.json</a>
+            </p>
+        </div>
+      </div>
+      <div class='col-md-2'>
+        <div>
+            <p class='text-muted'>
+                <a target='_new' onClick='loadTimecardType()'>TimecardType.json</a>
+            </p>
+        </div>
+      </div>
+      <div class='col-md-2'>
+        <div>
+            <p class='text-muted'>
+                <a target='_new' onClick='loadWellnessType()'>WellnessType.json</a>
+            </p>
+        </div>
+      </div>
+      <div class='col-md-2'>
+        <div>
+            <p class='text-muted'>
+                <a href='HROPEN/common/json/samples/testType.html' target='_new'>Common</a>
+            </p>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-md-12'>
+        <iframe id='iframeID' src='HROPEN/jschema/JSchema/index.htm' frameborder='0' onload='resizeIframe(this)'></iframe>
+      </div>
+    </div>
+
+    <div class='row'>
+        <hr/>
+        <div class='col-md-12'>
+            <p class='text-muted'>This page uses the JSchema web application in an iframe. It doesn't work from the gh-pages branch of the repo because of CORS issues. It does work when it is hosted in a docker container on AWS.
+            </p>
+            <p class='text-warning'>
+                To validate samples:
+
+                <ol>
+                    <li>click on the validate button.</li>
+                    <li>Make sure the 'by URL' textbox has a full url (including the http:// and the servername.com:port etc.).</li>
+                    <li>Then you can use drag and drop from your file system. Drag the file onto the text input box that has "enter instance for validation...". </li>
+                </ol>
+            </p>
+        </div>
+    </div>
+  </div>
+
+  <div id='footer'></div>
+  <!-- <script src="jschemapage.bundle.js"></script> -->
+</body>
+
+</html>

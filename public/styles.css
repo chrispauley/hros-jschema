@@ -1,0 +1,81 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+ul.tech_icon { list-style: none;}
+
+ul.tech_icon > li {
+  clear: left;
+}
+
+ul.tech_icon > li:before {
+  content: '';
+  height: 1.2em;
+  width: 1.2em;
+  margin-left: -1em;
+  margin-right: .5em;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.alpinelinux::before {
+    content:'';
+    background-image: url('img/alpinelinux.svg');
+}
+.bootstrap::before {
+    content: '';
+    background-image: url('img/bootstrap.svg');
+}
+
+.docker::before {
+    content:'';
+    background-image: url('img/docker.svg');
+}
+
+.docker-hub::before {
+    content:'';
+    background-image: url('img/docker-hub.svg');
+}
+
+.github::before {
+    content:'';
+    background-image: url('img/github-icon.svg');
+}
+.aws::before {
+    content:'';
+    background-image: url('img/AWS_EC2_Instances.svg');
+}
+
+.bootstrap::before {
+    content:'';
+    background-image: url('img/bootstrap.svg');
+}
+.bower::before {
+    content:'';
+    background-image: url('img/bower.svg');
+}
+.html5::before {
+    content:'';
+    background-image: url('img/html5.svg');
+}
+.nginx::before {
+    content:'';
+    background-image: url('img/nginx_logo.svg');
+}
