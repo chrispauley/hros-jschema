@@ -4,6 +4,8 @@
 node_modules
 public/HROPEN/
 
+# testing cruft...
+sample*.md
 
 # misc
 .DS_Store

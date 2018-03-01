@@ -31,6 +31,7 @@
     "benefits": "https://github.com/HROpen/Benefits.git#development",
     "compensation": "https://github.com/HROpen/Compensation.git#development",
     "timecard": "https://github.com/HROpen/Timecard.git#development",
-    "wellness": "https://github.com/HROpen/Wellness.git#development"
+    "wellness": "https://github.com/HROpen/Wellness.git#development",
+    "tsc": "https://github.com/HROpen/TSC.git#master"
   }
 }
