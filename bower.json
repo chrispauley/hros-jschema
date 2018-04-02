@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "jschema": "https://github.com/DimDragon/jschema.git#master",
-    "common": "https://github.com/HROpen/Common.git#inclusion",
+    "common": "https://github.com/HROpen/Common.git#Inclusion",
     "assessments": "https://github.com/HROpen/Assessments.git#inclusion",
     "interviewing": "https://github.com/HROpen/Interviewing.git#inclusion",
     "recruiting": "https://github.com/HROpen/Recruiting.git#inclusion",
