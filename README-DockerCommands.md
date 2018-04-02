@@ -1,4 +1,4 @@
-# Dockerized HROS_Payroll
+# Dockerized hros-jschema
 
 ## Build the docker image
 docker build -t nginx-hrosjschema .
