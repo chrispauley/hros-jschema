@@ -23,15 +23,15 @@
   },
   "devDependencies": {
     "jschema": "https://github.com/DimDragon/jschema.git#master",
-    "common": "https://github.com/HROpen/Common.git#development",
-    "assessments": "https://github.com/HROpen/Assessments.git#development",
-    "interviewing": "https://github.com/HROpen/Interviewing.git#development",
-    "recruiting": "https://github.com/HROpen/Recruiting.git#development",
-    "screening": "https://github.com/HROpen/Screening.git#development",
-    "benefits": "https://github.com/HROpen/Benefits.git#development",
-    "compensation": "https://github.com/HROpen/Compensation.git#development",
-    "timecard": "https://github.com/HROpen/Timecard.git#development",
-    "wellness": "https://github.com/HROpen/Wellness.git#development",
+    "common": "https://github.com/HROpen/Common.git#inclusion",
+    "assessments": "https://github.com/HROpen/Assessments.git#inclusion",
+    "interviewing": "https://github.com/HROpen/Interviewing.git#inclusion",
+    "recruiting": "https://github.com/HROpen/Recruiting.git#inclusion",
+    "screening": "https://github.com/HROpen/Screening.git#inclusion",
+    "benefits": "https://github.com/HROpen/Benefits.git#inclusion",
+    "compensation": "https://github.com/HROpen/Compensation.git#inclusion",
+    "timecard": "https://github.com/HROpen/Timecard.git#inclusion",
+    "wellness": "https://github.com/HROpen/Wellness.git#inclusion",
     "tsc": "https://github.com/HROpen/TSC.git#master"
   }
 }
